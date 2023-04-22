@@ -49,7 +49,7 @@ const About = () => {
       >
         Hello Geeks, I'm Rishav anand! I hold a deep interest & knowledge in Programming, especially in designing software. I am currently a professional full-stack web developer and full-stack android developer. At the time, I work for different clients to create and enhance their products.
       </motion.p>
-
+       
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

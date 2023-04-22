@@ -50,6 +50,7 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+          <li className="bg-violet-700 shadow-lg shadow-indigo-700/50 rounded-lg hover:bg-indigo-600 active:bg-indigo-700 focus:outline-none focus:ring focus:ring-violet-300"><a href="https://drive.google.com/file/d/1PBhET4Jn2egWXObk80vVhDxBndMnsCAf/view?usp=share_link">Resume</a></li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -76,7 +77,9 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
+
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+             
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

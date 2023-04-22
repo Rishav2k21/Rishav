@@ -67,6 +67,7 @@ import {
       title: "Contact",
     },
    
+   
   ];
   
   const services = [
@@ -436,7 +437,7 @@ import {
     {
       name: "portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Designed and developed a portfolio website using react .Utilized responsive design to ensure the website looks good on different devices and screen sizes. Ensured  responsive design for optimal user experience .",
       tags: [
         {
           name: "react",
@@ -458,7 +459,7 @@ import {
     {
       name: "Dostean",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This project website was a part of Google Winter of Code 2023, conducted by GDSC-SVNIT .  It was an incredible experience working with such a talented and dedicated team. Ensured  responsive design for optimal user experience .",
       tags: [
         {
           name: "react",
@@ -481,7 +482,7 @@ import {
     {
       name: "t-shirt",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Build and Deploy an AI-Powered 3D Website Using React in which you can change the color of t-shirt  It also contain an AI powered chat where you can ask him to print any photo or logo on your t-shirt",
       tags: [
         {
           name: "react",
@@ -504,7 +505,7 @@ import {
     {
       name: "eye blinker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Blink frequency counter , used to count the number of times you blinks your eye in 1 minute .It can be used for the  patients who is suffering from ADHD. ",
       tags: [
        
         {
@@ -520,8 +521,8 @@ import {
     {
       name: "food website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
+        "This is a normal food website , I have uploaded this on my github account just because it was my first ever website that i built in the journey of web devlopment",
+              tags: [
         {
           name: "html",
           color: "blue-text-gradient",
@@ -540,7 +541,7 @@ import {
     {
       name: "music",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Music Player App. This app fetch all the music,audio in the phone and store it and also gives options like play,volume up,volume down,pause ",
       tags: [
         {
           name: "xml",
@@ -559,7 +560,7 @@ import {
     {
       name: "movie",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a movie review website using HTML, CSS, and JavaScript .Implemented a search function that allows users to search for movies by name. Utilized a third-party API to fetch movie information, including descriptions and reviews",
       tags: [
         {
           name: "html",
@@ -586,7 +587,7 @@ import {
     {
       name: "calci",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Designed and built a calculator website using HTML, CSS, and JavaScript . Implemented a Dark mode as well light mode. Ensured cross-browser compatibility and responsive design for optimal user experience",
       tags: [
         {
           name: "html",
@@ -605,11 +606,12 @@ import {
       source_code_link: "https://github.com/Rishav2k21/calculator-/",
       pcode:"https://calculator-gray-three.vercel.app/"
 
+
     },
     {
       name: "lamp",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Designed and developed a lamp website using HTML, CSS, and JavaScript .Implemented an on/off switch for the lamp using JavaScript for interactive functionality .Ensured  responsive design for optimal user experience .",
       tags: [
         {
           name: "html",
