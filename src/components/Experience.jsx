@@ -11,8 +11,10 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import { linke, linking ,shre  } from "../assets";
-
+import { linke, linking ,shre,sound } from "../assets";
+function play(){
+  new Audio(sound).play();
+}
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -40,7 +42,8 @@ const ExperienceCard = ({ experience }) => {
       
             <div 
           
-              onClick={() => window.open(experience.link, "_blank")}
+              onClick={() => {window.open(experience.link, "_blank");
+            play();}}
               className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
 

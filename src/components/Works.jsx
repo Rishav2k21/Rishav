@@ -3,11 +3,13 @@ import {Tilt }from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github,shre } from "../assets";
+import { github,shre,sounds } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-
+function play(){
+  new Audio(sound).play();
+}
 const ProjectCard = ({
   index,
   name,
@@ -36,7 +38,8 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => {window.open(source_code_link, "_blank");
+            play(); }}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
@@ -46,7 +49,8 @@ const ProjectCard = ({
               />
             </div>
             <div
-              onClick={() => window.open(pcode, "_blank")}
+              onClick={() =>{ window.open(pcode, "_blank");
+                  play(); } }
               className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img

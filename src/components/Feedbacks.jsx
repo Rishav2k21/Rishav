@@ -77,9 +77,11 @@ import { styles } from "../styles";
 import { feedbacks } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import { github,linking,shre } from "../assets";
+import { github,linking,shre,sound } from "../assets";
 
-
+function play(){
+  new Audio(sound).play();
+}
 const FeedbacksCard = ({ feedback }) => {
   return (
     <VerticalTimelineElement
@@ -104,7 +106,8 @@ const FeedbacksCard = ({ feedback }) => {
         <h3 className='text-white text-[24px] font-bold'>{feedback.title}</h3>
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(feedback.link, "_blank")}
+              onClick={() => {window.open(feedback.link, "_blank");
+                   play()}}
               className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img

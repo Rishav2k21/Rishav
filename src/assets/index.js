@@ -14,6 +14,9 @@ import face from "./face.avif";
 import twit from "./tw.png";
 import share from "./share.jpg"
 import shre from "./shre.png"
+import sound from "./sound.wav"
+import sounds from "./moan.mp3"
+
 
 
 
@@ -117,5 +120,5 @@ export {
   lamp,
   gdsc,acm,gd,
   lo,cloud,
-  instagram,facebook,twitter,face,twit ,linkin,share,linke,linking,shre
+  instagram,facebook,twitter,face,twit ,linkin,share,linke,linking,shre,sound,sounds
 };

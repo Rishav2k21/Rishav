@@ -6,7 +6,10 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+import {sound} from "../assets"
+function play(){
+  new Audio(sound).play();
+}
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -114,7 +117,7 @@ const Contact = () => {
             />
           </label>
 
-          <button
+          <button onClick={play()}
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >

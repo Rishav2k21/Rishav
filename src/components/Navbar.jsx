@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close ,lo } from "../assets";
+import { logo, menu, close ,lo,sound,sounds } from "../assets";
 
+function play(){
+  new Audio(sound).play();
+}
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -38,6 +40,7 @@ const Navbar = () => {
           to='/'
           className='flex items-center gap-2'
           onClick={() => {
+           play
             setActive("");
             window.scrollTo(0, 0);
           }}
@@ -50,14 +53,15 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          <li className="bg-violet-700 shadow-lg shadow-indigo-700/50 rounded-lg hover:bg-indigo-600 active:bg-indigo-700 focus:outline-none focus:ring focus:ring-violet-300"><a href="https://drive.google.com/file/d/1PBhET4Jn2egWXObk80vVhDxBndMnsCAf/view?usp=share_link">Resume</a></li>
+          <li  className="bg-violet-700 shadow-lg shadow-indigo-700/50 rounded-lg hover:bg-indigo-600 active:bg-indigo-700 focus:outline-none focus:ring focus:ring-violet-300"><a  onClick={play} href="https://drive.google.com/file/d/1PBhET4Jn2egWXObk80vVhDxBndMnsCAf/view?usp=share_link">Resume</a></li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() =>{ setActive(nav.title);
+              play();}}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -87,6 +91,7 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
+                    play();
                     setToggle(!toggle);
                     setActive(nav.title);
                   }}
