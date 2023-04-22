@@ -41,7 +41,15 @@ import {
     lamp,
     gdsc,
     acm,
-    gd
+    gd,
+    cloud,
+    instagram,
+    twitter,
+    linke,
+    facebook,
+    face,
+    linkin,
+    twit
     
   } from "../assets";
   
@@ -58,6 +66,7 @@ import {
       id: "contact",
       title: "Contact",
     },
+   
   ];
   
   const services = [
@@ -247,12 +256,11 @@ import {
 
       date: "aug-22  - Present",
       points: [
-        "codingninzas is great platform for building probelm skill in and practcing the coding questions, i solved 50+ questions on this platform , It has various language tracks which we can complete and earn stars to showcase our profeciency in that language.",
-      ],
+"ACM, the world's largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM provides the computing field's premier Digital Library and serves its members and the computing profession with leading-edge publications, conferences, and career resources."      ],
     },
     {
       title: "certificates",
-      company_name: "GDSC,google cloud",
+      company_name: "GDSC,google cloud skill boost",
       logo:gd,
 
       icon: meta,
@@ -261,35 +269,167 @@ import {
 
       date: "dec-2022",
       points: [
-        "codingninzas is great platform for building probelm skill in and practcing the coding questions, i solved 50+ questions on this platform , It has various language tracks which we can complete and earn stars to showcase our profeciency in that language.",
-      ],
+"Google Cloud Skills Boost combines award winning learning experiences with the ability to earn credentials to validate learning, which can be managed and delivered directly by Google Cloud with enterprise level features.07"      ],
     },
+    {
+      title: "Create and Manage Cloud Resources",
+      company_name: "google cloud",
+      logo:cloud,
+
+      icon: meta,
+      iconBg: "#E6DEDD",
+      link:"https://www.cloudskillsboost.google/public_profiles/aa8d6a22-4d90-48f1-8edb-7d28db31d579/badges/3054940?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+
+      date: "dec-2022",
+      points: [
+"A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."      ],
+    },
+    {
+      title: "Set Up and Configure a Cloud Environment in Google Cloud",
+      company_name: "google cloud",
+      logo:cloud,
+
+      icon: meta,
+      iconBg: "#E6DEDD",
+      link:"https://www.cloudskillsboost.google/public_profiles/aa8d6a22-4d90-48f1-8edb-7d28db31d579/badges/3115103?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+
+      date: "dec-2022",
+      points: [
+"A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."      ],
+    },
+    {
+      title: "Perform Foundational Infrastructure Tasks in Google Cloud",
+      company_name: "google cloud",
+      logo:cloud,
+
+      icon: meta,
+      iconBg: "#E6DEDD",
+      link:"https://www.cloudskillsboost.google/public_profiles/aa8d6a22-4d90-48f1-8edb-7d28db31d579/badges/3113557?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+
+      date: "dec-2022",
+      points: [
+"A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."      ],
+    },
+    {
+      title: "Google Cloud Fundamentals: Core Infrastructure",
+      company_name: "google cloud",
+      logo:cloud,
+
+      icon: meta,
+      iconBg: "#E6DEDD",
+      link:"https://www.cloudskillsboost.google/public_profiles/aa8d6a22-4d90-48f1-8edb-7d28db31d579/badges/3107351?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+
+      date: "dec-2022",
+      points: [
+"A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."      ],
+    },
+    {
+      title: "Getting Started with Google Kubernetes Engine",
+      company_name: "google cloud",
+      logo:cloud,
+      icon: meta,
+      iconBg: "#E6DEDD",
+      link:"https://www.cloudskillsboost.google/public_profiles/aa8d6a22-4d90-48f1-8edb-7d28db31d579/badges/3113291?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+
+      date: "dec-2022",
+      points: [
+"A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."      ],
+    },
+    {
+      title: "Essential Google Cloud Infrastructure: Foundation",
+      company_name: "google cloud",
+      logo:cloud,
+
+      icon: meta,
+      iconBg: "#E6DEDD",
+      link:"https://www.cloudskillsboost.google/public_profiles/aa8d6a22-4d90-48f1-8edb-7d28db31d579/badges/3111960?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+
+      date: "dec-2022",
+      points: [
+        "A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."
+       ],
+    },
+    {
+      title: "Essential Google Cloud Infrastructure: Core Services",
+      company_name: "google cloud",
+      logo:cloud,
+
+      icon: meta,
+      iconBg: "#E6DEDD",
+      link:"https://www.cloudskillsboost.google/public_profiles/aa8d6a22-4d90-48f1-8edb-7d28db31d579/badges/3112631?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+
+      date: "dec-2022",
+      points: [
+        "A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."
+      ],
+     },
   ];
   const testimonials = [
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Instagram",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Facebook",
+    //   designation: "COO",
+
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Twitter",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "https://www.instagram.com/rishav_02_12/?next=%2F",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: instagram,
+      nam:"Instagram"
     },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      name: " https://twitter.com/rishav18082002?t=cx8Y4REAf5nq1Ocseqp82Q&s=08 ",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: twit,
+      nam:"Twitter"
     },
+    {
+      testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "https://www.facebook.com/rishav.anand.5680",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: face,
+      nam:"Facebook"
+    },
+    {
+      testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "https://www.linkedin.com/in/rishav-anand-20479b244/",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: linkin,
+      nam:"linked in"
+    },
+   
+
+  
+
   ];
   
   const projects = [
@@ -313,6 +453,7 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/",
+      pcode:"https://tshirt-fpaz.vercel.app/"
     },
     {
       name: "Dostean",
@@ -334,6 +475,8 @@ import {
       ],
       image: Dostean,
       source_code_link: "https://github.com/",
+      pcode:""
+
     },
     {
       name: "t-shirt",
@@ -355,6 +498,8 @@ import {
       ],
       image: tshirt,
       source_code_link: "https://github.com/Rishav2k21/tshirt",
+      pcode:"https://tshirt-logo-design.vercel.app/"
+
     },
     {
       name: "eye blinker",
@@ -369,6 +514,8 @@ import {
       ],
       image: eyeblinker,
       source_code_link: "https://github.com/Rishav2k21/eye-blinker",
+      pcode:""
+
     },
     {
       name: "food website",
@@ -387,6 +534,8 @@ import {
       ],
       image: foodwebsite,
       source_code_link: "https://github.com/Rishav2k21/food-website",
+      pcode:"https://food-website-fpx7.vercel.app/"
+
     },
     {
       name: "music",
@@ -404,6 +553,8 @@ import {
       ],
       image: music,
       source_code_link: "https://github.com/Rishav2k21/music-player-app",
+      pcode:""
+
     },
     {
       name: "movie",
@@ -429,6 +580,8 @@ import {
       ],
       image: movie,
       source_code_link: "https://github.com/",
+      pcode:"https://movie-review-ruby.vercel.app/"
+
     },
     {
       name: "calci",
@@ -450,6 +603,8 @@ import {
       ],
       image: calci,
       source_code_link: "https://github.com/Rishav2k21/calculator-/",
+      pcode:"https://calculator-gray-three.vercel.app/"
+
     },
     {
       name: "lamp",
@@ -471,6 +626,8 @@ import {
       ],
       image: lamp,
       source_code_link: "https://github.com/",
+      pcode:"https://lamp-turn-on-off.vercel.app/"
+
     }
     
   ];

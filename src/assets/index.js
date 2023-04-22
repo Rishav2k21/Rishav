@@ -10,10 +10,29 @@ import forces from "./forces.png";
 import leetcode from "./leetcode.png";
 import lamp from "./lamp.png";
 import gdsc from "./gdsc.png";
+import face from "./face.avif";
+import twit from "./tw.png";
+import share from "./share.jpg"
+import shre from "./shre.png"
+
+
+
+import linkin from "./linkin.avif";
+
 
 import acm from "./acm.jpg";
 import gd from "./gd.jpg";
 import lo from "./lo.jpg";
+import cloud from "./cloud.png";
+import instagram from "./insta.jpeg";
+import facebook from "./facebook.png";
+import linke from "./lin.png";
+import linking from "./linking.png";
+
+import twitter from "./twitter.png";
+
+
+
 
 
 
@@ -97,6 +116,6 @@ export {
   leetcode,
   lamp,
   gdsc,acm,gd,
-  lo
-
+  lo,cloud,
+  instagram,facebook,twitter,face,twit ,linkin,share,linke,linking,shre
 };
