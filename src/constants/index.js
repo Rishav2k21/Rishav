@@ -147,7 +147,7 @@ import {
   const experiences = [
     {
       title: "Codeforces",
-      company_name: "Starbucks",
+      company_name: "",
       logo:forces,
       icon: starbucks,
       iconBg: "#383E56",
@@ -159,7 +159,7 @@ import {
       },
     {
       title: "Geeks For Geeks",
-      company_name: "Tesla",
+      company_name: "",
       logo:geeksforgeeks,
       icon: tesla,
       iconBg: "#8AFF8A",
@@ -171,7 +171,7 @@ import {
     },
     {
       title: "CodeChef",
-      company_name: "Shopify",
+      company_name: "",
       logo:codechef,
 
       icon: shopify,
@@ -185,7 +185,7 @@ import {
     },
     {
       title: "Leetcode",
-      company_name: "Meta",
+      company_name: "",
       logo:leetcode,
 
       icon: meta,
