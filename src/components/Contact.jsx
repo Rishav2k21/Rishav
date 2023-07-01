@@ -108,6 +108,7 @@ const Contact = () => {
            
           >
             {/* {loading ? "Sending..." : "Send"} */}
+            Send
           </button>
         </form>
       </motion.div>
