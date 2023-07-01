@@ -12,14 +12,17 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.65.3",
     "@react-three/fiber": "^8.12.0",
+    "firebase": "^9.23.0",
     "framer-motion": "^10.11.6",
     "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.10.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.151.3"
+    "three": "^0.151.3",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

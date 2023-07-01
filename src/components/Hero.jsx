@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -18,10 +18,20 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Rishav</span>
           </h1>
+          <Typewriter
+            options={{
+              strings: ["A Developer", "A Designer", "A Creator"],
+              autoStart: true,
+              loop: true,
+              cursor: "",
+              wrapperClassName: "typewriterpara",
+            }}
+          />
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I’m a software developer and here is my portfolio website.  <br className='sm:block hidden' />
           Here you’ll learn about my journey as a software developer.
           </p>
+
         </div>
       </div>
 

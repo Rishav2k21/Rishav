@@ -74,7 +74,7 @@ const Footer = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>social media </p>
-          <h2 className={styles.sectionHeadText}>contact us on .</h2>
+          <h2 className={styles.sectionHeadText}>contact me on .</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
