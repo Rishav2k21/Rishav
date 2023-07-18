@@ -1,12 +1,13 @@
 # ![Rishav Anand]'s Portfolio Website 🚀
 
-![Portfolio Demo](https://rishav-iota.vercel.app/)
+<img width="933" alt="Screenshot (115)" src="https://github.com/Rishav2k21/Ecommerce/assets/98807848/6e7ab2d8-211c-4e3f-a074-2046e81aa604">
+
 
 Welcome to my portfolio website repository! This project showcases my web development journey, achievements, and projects built using the MERN stack (MongoDB, Express.js, React, Node.js). It is designed to provide visitors with an engaging overview of my skills, experiences, and passion for creating innovative web applications. 🌟
 
 ## Live Demo
 
-Visit my portfolio website live at [your_portfolio_url](https://rishav-iota.vercel.app/). 🌐
+Visit my portfolio website live at [Rishav](https://rishav-iota.vercel.app/). 🌐
 
 ## Technologies Used
 
