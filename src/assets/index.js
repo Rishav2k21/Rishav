@@ -18,7 +18,9 @@ import sound from "./sound.wav"
 import sounds from "./moan.mp3"
 
 
-
+import crypto from "./crypto.png"
+import ecom from "./ecommerce.png"
+import video from "./videohub.png"
 
 import linkin from "./linkin.avif";
 
@@ -120,5 +122,5 @@ export {
   lamp,
   gdsc,acm,gd,
   lo,cloud,
-  instagram,facebook,twitter,face,twit ,linkin,share,linke,linking,shre,sound,sounds
+  instagram,facebook,twitter,face,twit ,linkin,share,linke,linking,shre,sound,sounds,crypto,ecom,video
 };

@@ -12,6 +12,7 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    crypto,ecom,video,
     git,
     figma,
     docker,
@@ -434,7 +435,8 @@ import {
   ];
   
   const projects = [
-    {
+ 
+           {
       name: "portfolio",
       description:
         "Designed and developed a portfolio website using react .Utilized responsive design to ensure the website looks good on different devices and screen sizes. Ensured  responsive design for optimal user experience .",
@@ -456,6 +458,52 @@ import {
       source_code_link: "https://github.com/",
       pcode:"https://tshirt-fpaz.vercel.app/"
     },
+     {
+      name: "R-commerce",
+      description:
+        "A feature-rich ecommerce website built using MongoDB, Express.js, React, and Node.js. Shop, track orders, and enjoy a seamless buying experience. Contributions welcome! 🛍️💻",
+      tags: [
+        {    
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecom,
+      source_code_link: "https://github.com/Rishav2k21/Ecommerce",
+      pcode:"https://github.com/Rishav2k21/Ecommerce"
+    },
+     {
+      name: "R-Crypto",
+      description:
+        " Crypto Live Details  is a real-time platform that offers up-to-date information on various cryptocurrencies, including their prices, market caps,  traders, and investors to stay informed about the latest market trends.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "chart.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "chakra ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crypto,
+      source_code_link: "https://github.com/Rishav2k21/R-cryptoo",
+      pcode:"https://r-cryptoo.vercel.app/"
+    },
+
+
     {
       name: "Dostean",
       description:
@@ -503,9 +551,10 @@ import {
 
     },
     {
-      name: "eye blinker",
+      name: "Video Hub",
       description:
-        "Blink frequency counter , used to count the number of times you blinks your eye in 1 minute .It can be used for the  patients who is suffering from ADHD. ",
+        
+"The Simple Frontend Dummy Video Hub Website using (MERN Stack , Chakra ui , css , javascript) is a basic web application designed to showcase a collection of dummy videos and some of the features are that you can download the video.",
       tags: [
        
         {
@@ -513,31 +562,12 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: eyeblinker,
-      source_code_link: "https://github.com/Rishav2k21/eye-blinker",
-      pcode:""
+      image: video,
+      source_code_link: "https://github.com/Rishav2k21/Video-Hub",
+      pcode:"https://video-hub-tbl3.vercel.app/"
 
     },
-    {
-      name: "food website",
-      description:
-        "This is a normal food website , I have uploaded this on my github account just because it was my first ever website that i built in the journey of web devlopment",
-              tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-       
-      ],
-      image: foodwebsite,
-      source_code_link: "https://github.com/Rishav2k21/food-website",
-      pcode:"https://food-website-fpx7.vercel.app/"
-
-    },
+   
     {
       name: "music",
       description:
@@ -560,7 +590,7 @@ import {
     {
       name: "movie",
       description:
-        "Created a movie review website using HTML, CSS, and JavaScript .Implemented a search function that allows users to search for movies by name. Utilized a third-party API to fetch movie information, including descriptions and reviews",
+        "Created a movie dfsdgvgdsgvdgvsghjhgfddxfcgvbnreview website using HTML, CSS, and JavaScript . Utilized a third-party API to fetch movie information, including descriptions and reviews",
       tags: [
         {
           name: "html",
@@ -607,30 +637,9 @@ import {
       pcode:"https://calculator-gray-three.vercel.app/"
 
 
-    },
-    {
-      name: "lamp",
-      description:
-        "Designed and developed a lamp website using HTML, CSS, and JavaScript .Implemented an on/off switch for the lamp using JavaScript for interactive functionality .Ensured  responsive design for optimal user experience .",
-      tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: lamp,
-      source_code_link: "https://github.com/",
-      pcode:"https://lamp-turn-on-off.vercel.app/"
-
     }
+    
+  
     
   ];
   
